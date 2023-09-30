@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "957629140257",
+    "project_id": "login-289b8",
+    "storage_bucket": "login-289b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957629140257:android:b610661f6c9c6c89f84260",
+        "android_client_info": {
+          "package_name": "com.example.splash"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCuAWptcaUvtdInJ-oXQzUXDIVkRksLx4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

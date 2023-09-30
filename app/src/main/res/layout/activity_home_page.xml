@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#090909"
+    tools:context=".HomePage">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycler_view"
+        android:padding="5dp"
+        android:layout_marginTop="70dp"
+        android:layout_above="@id/bottom_layout"
+        />
+
+    <ImageView
+        android:id="@+id/signOut"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/welcome_text"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="276dp"
+        android:background="@drawable/logout" />
+
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="Welcome to AmbuTech ChatBot\n How can we help "
+        android:textColor="@color/white"
+        android:textIsSelectable="true"
+        android:textSize="24dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/bottom_layout"
+        android:padding="10dp"
+        android:layout_marginBottom="15dp"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/message_edit_text"
+            android:hint="Write Here"
+            android:padding="16dp"
+            android:layout_toLeftOf="@id/send_button"
+            android:background="@drawable/rounded_color"
+            android:layout_marginRight="5dp"
+            android:textSize="20dp"/>
+
+        <ImageButton
+            android:id="@+id/send_button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="10dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:padding="8dp"
+            android:src="@drawable/baseline_keyboard_double_arrow_up_24" />
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
+
