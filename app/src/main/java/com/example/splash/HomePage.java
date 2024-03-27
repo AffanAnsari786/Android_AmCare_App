@@ -3,6 +3,7 @@ package com.example.splash;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.GravityCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -186,6 +187,11 @@ public class HomePage extends AppCompatActivity {
                 startActivity(new Intent(HomePage.this,MainActivity.class));
             }
         });
+    }
+    @Override
+    public void onBackPressed() {
+        startActivity(new Intent(HomePage.this,SideBarActivity.class));
+
     }
 
 }

@@ -15,6 +15,7 @@
         android:textSize="25sp"
         android:textStyle="bold"
         android:textColor="@color/white"
+        android:layout_marginBottom="10dp"
         android:text="Welcome Back" />
 
     <TextView
@@ -22,20 +23,21 @@
         android:layout_height="wrap_content"
         android:textSize="50sp"
         android:textStyle="bold"
-        android:textColor="@color/black"
+        android:textColor="@color/blue"
         android:text="Log In" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="90dp"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        android:layout_marginTop="70dp"
+        app:hintTextAppearance="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
-        <com.google.android.material.textfield.TextInputEditText
+    <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/email"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:hint="Email"
+            android:padding="13dp"
             android:drawableStart="@drawable/baseline_person_4_24"
             android:drawablePadding="15dp"
             android:background="@drawable/input_color"
@@ -54,8 +56,9 @@
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/password"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:hint="Password"
+            android:padding="13dp"
             android:background="@drawable/input_color"
             android:textColor="@color/black"
             android:drawableStart="@drawable/baseline_info_24"
@@ -67,7 +70,7 @@
     <Button
         android:id="@+id/sign_in"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:textStyle="bold"
         android:textSize="23dp"
         android:text="SIGN IN"

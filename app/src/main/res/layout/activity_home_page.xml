@@ -36,7 +36,7 @@
         android:gravity="center"
         android:paddingLeft="5dp"
         android:paddingRight="5dp"
-        android:text="Welcome to AmbuTech ChatBot\n How can we help "
+        android:text="Welcome to AmCare ChatBot\n How can we help "
         android:textColor="@color/white"
         android:textIsSelectable="true"
         android:textSize="24dp" />

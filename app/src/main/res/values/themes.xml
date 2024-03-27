@@ -1,18 +1,18 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.Splash" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+<!-- Base application theme. -->
+<style name="Base.Theme.Splash" parent="Theme.Material3.DayNight.NoActionBar">
+    <!-- Customize your light theme here. -->
+    <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
 
-    </style>
+</style>
 
-    <style name="Theme.Splash" parent="Base.Theme.Splash">
-        <item name="colorPrimary">@color/silver</item>
-        <item name="colorPrimaryVariant">@color/silver</item>
-    </style>
+<style name="Theme.Splash" parent="Base.Theme.Splash">
+    <item name="colorPrimary">@color/silver</item>
+    <item name="colorPrimaryVariant">@color/silver</item>
+</style>
 
-    <style name="Theme.EarnFireSplash" parent="Theme.Material3.DayNight.NoActionBar">
-        <item name="android:windowBackground">#272829</item>
+<style name="Theme.EarnFireSplash" parent="Theme.Material3.DayNight.NoActionBar">
+    <item name="android:windowBackground">#272829</item>
 
-    </style>
+</style>
 </resources>
