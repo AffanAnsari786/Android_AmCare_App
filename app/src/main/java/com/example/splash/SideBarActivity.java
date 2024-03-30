@@ -68,6 +68,9 @@ public class SideBarActivity extends HomePage {
                 else if(id==R.id.chat_bot){
                     startActivity(new Intent(SideBarActivity.this,HomePage.class));
                 }
+                else if(id==R.id.chat_with_us){
+                    startActivity(new Intent(SideBarActivity.this,InAppActivity.class));
+                }
                 else if(id==R.id.login_menu){
                     startActivity(new Intent(SideBarActivity.this,MainActivity.class));
                 }

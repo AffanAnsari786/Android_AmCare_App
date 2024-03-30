@@ -30,6 +30,9 @@ android {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
+    buildFeatures {
+        dataBinding = true
+    }
 }
 
 dependencies {
@@ -48,5 +51,7 @@ dependencies {
     implementation("com.google.android.gms:play-services-auth:20.7.0")
     implementation("com.facebook.android:facebook-login:latest.release")
     implementation("com.github.ZEGOCLOUD:zego_uikit_prebuilt_call_android:+")
+    implementation("com.github.ZEGOCLOUD:zego_inapp_chat_uikit_android:+")
+    implementation(platform("org.jetbrains.kotlin:kotlin-bom:1.8.0"))
 
 }

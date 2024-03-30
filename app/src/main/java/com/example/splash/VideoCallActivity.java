@@ -34,8 +34,8 @@ public class VideoCallActivity extends AppCompatActivity {
         yourUserID.setText("Your User ID :" + userID);
         yourUserName.setText("Your User Name :" + userName);
 
-        long appID = 000000; //Enter your appid
-        String appSign = "xxxxxx"; //Enter your appsign
+        long appID = 00000000; //Enter your appid
+        String appSign = "xxxxxxxxxxx"; //Enter your appsign
 
         initCallInviteService(appID, appSign, userID, userName);
 

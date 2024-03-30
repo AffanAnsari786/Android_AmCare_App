@@ -20,7 +20,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="AmbuTech"
+        android:text="AmCare"
         android:textStyle="italic"
         android:layout_marginTop="10dp"
         android:textSize="40sp"
